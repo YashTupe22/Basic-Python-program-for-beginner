@@ -1,0 +1,10 @@
+#Bitwise Operator
+print("Bitwise Operator Example")
+print("Addition of Binary Numbers")
+a=int(input("Enter the value of a: "))
+b=int(input("Enter the value of b: "))  
+print("Addition of a and b is", a|b)
+print("Complement of a", ~a, "Complement of B", ~b)
+print("Bitwise XOR of a and b is", a^b)
+print("Bitwise right shift of a is", a>>1, "Bitwise right shift of b is", b>>1)
+print("Bitwise left shift of a is", a<<1, "Bitwise left shift   of b is", b<<1)                     
