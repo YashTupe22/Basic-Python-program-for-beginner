@@ -1,0 +1,10 @@
+a={"Monday","Tuesday","Wednesday","Thursday","Saturday"}
+b={"friday","Saturday","Sunday"}
+c=a|b
+print(c)
+d=a&b
+print(d)
+e=a-b
+print(e)
+f=a^b
+print(f)
